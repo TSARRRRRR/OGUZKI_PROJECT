@@ -1,0 +1,378 @@
+
+  
+  body {
+    background: #000;
+  }
+
+
+   /* @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 639px) {
+    .ag-toggle_title {
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 479px) {
+  
+  }
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+    .ag-format-container {
+      width: 750px;
+    }
+  
+  }
+  
+  @media (min-width: 980px) and (max-width: 1161px) {
+    .ag-format-container {
+      width: 960px;
+    }
+  
+  } */
+
+
+        /* ШАПКА */
+  .comtexno {
+    --k: 0;
+    background: linear-gradient(90deg, hsl(calc(var(--k)*1turn), 95%, 65%), 
+    hsl(calc(var(--k)*1turn + 90deg), 95%, 65%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font: 900 clamp(0.875em, 7.25vw, 5em) arial black, sans-serif;
+    filter: url(#f);
+    text-align: center;
+    text-transform: uppercase;
+    animation: k 4s linear infinite;
+  }
+  
+  @keyframes k {
+    to {
+      --k: 1 ;
+    }
+  }
+
+  *,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+
+.container_for_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+
+
+    /* АДАПТАЦИЯ НИЖЕ */
+@media screen and (max-width: 550px) {
+  body{
+    width: 550px;
+  }
+
+  .div_d_tur .d_tur{
+    max-width: 550px;
+    height: 220px;
+  }
+
+  .container_for_btn{
+    max-width: 320px;
+  }
+
+  .neon-btn--blue:hover 
+  .neon-btn--purple:hover
+  .neon-btn--green:hover
+  .neon-btn {
+    margin-right: opx;
+  }
+}
+    /* АДАПТАЦИЯ ВЫШЕ*/
+
+
+
+
+.neon-btn {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px 30px;
+  transition: 0.2s;
+  margin-right: 10px;
+}
+
+.neon-btn--blue {
+  color: #4cc9f0;
+}
+
+.neon-btn--blue:hover {
+  background-color: #4cc9f0;
+  color: #fff;
+  border: 1px solid #4cc9f0;
+  box-shadow: 10px 10px 100px 6px #4cc9f0;
+}
+
+.neon-btn--purple {
+  color: #f038ff;
+}
+
+.neon-btn--purple:hover {
+  background-color: #f038ff;
+  color: #fff;
+  border: 1px solid #f038ff;
+  box-shadow: 10px 10px 100px 6px #f038ff;
+}
+
+.neon-btn--green {
+  color: #b9e769;
+}
+
+.neon-btn--green:hover {
+  background-color: #b9e769;
+  color: #fff;
+  border: 1px solid #b9e769;
+  box-shadow: 10px 10px 100px 6px #b9e769;
+}
+      /* КОНЕЦ ШАПКИ */
+
+.d_tur{
+  margin-right: 50px;
+  border: none;
+  width: 900px; 
+  height: 480px;
+}
+.text_around_tur, .teg_p_text_around_tur{
+  color: aliceblue;
+}
+.teg_p_text_around_tur_h4{
+  margin-top: 40px;
+  color: aliceblue;
+}
+.div_d_tur{
+  float: left;
+}
+.link_around_tur{
+  color: rgb(21, 235, 21);
+}
+.text_video_about_main_theme{
+  color: aliceblue;
+  margin-top: 100px;
+}
+.video_about_main_theme{
+  display: flex;
+  justify-content: left;
+  width: 600px;
+  height: 450px;
+}
+
+.d_tur2{
+  margin-right: 50px;
+  border: none;
+  width: 450px; 
+  height: 220px;
+}
+.text_around_tur2, .teg_p_text_around_tur2{
+  color: aliceblue;
+}
+.div_d_tur2{
+  margin-top: 150px;
+  float: left;
+}
+
+
+.d_tur3{
+  margin-right: 50px;
+  border: none;
+  width: 450px; 
+  height: 220px;
+}
+.text_around_tur3, .teg_p_text_around_tur3{
+  color: aliceblue;
+}
+.div_d_tur3{
+  margin-top: 80px;
+  margin-bottom: 150px;
+  float: left;
+}
+
+.d_tur4{
+  margin-right: 50px;
+  border: none;
+  width: 450px; 
+  height: 220px;
+}
+.text_around_tur4, .teg_p_text_around_tur4{
+  color: aliceblue;
+}
+.div_d_tur4{
+  margin-top: 80px;
+  margin-bottom: 150px;
+  float: left;
+}
+
+.d_tur5{
+  margin-right: 50px;
+  border: none;
+  width: 450px; 
+  height: 220px;
+}
+.text_around_tur5, .teg_p_text_around_tur5{
+  color: aliceblue;
+}
+.div_d_tur5{
+  margin-top: 80px;
+  margin-bottom: 150px;
+  float: left;
+}
+
+
+
+
+.div_pdf{
+  color: aliceblue;
+  width: 100px;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 350px;
+}
+@media screen and (max-width: 550px) {
+  .div_pdf{
+    margin-bottom: 0px;
+  }
+}
+.pdf{
+  width: 150px;
+  height: 125px;
+}
+
+
+      /* ФУТЕР САЙТА */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  margin-top: 150px;
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
